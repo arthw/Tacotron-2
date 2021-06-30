@@ -114,6 +114,10 @@ Next, you need to install some Linux dependencies to ensure audio libraries work
 
 > apt-get install -y libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg libav-tools
 
+For CentOS:
+
+> yum install -y portaudio portaudio-devel 
+
 Finally, you can install the requirements. If you are an Anaconda user: (else replace **pip** with **pip3** and **python** with **python3**)
 
 > pip install -r requirements.txt
